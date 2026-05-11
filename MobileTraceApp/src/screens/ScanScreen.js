@@ -139,7 +139,7 @@ export default function ScanScreen({ navigation }) {
           <Text style={styles.instruction}>Dua ma vach vao khung de xac thuc</Text>
           {scanned && (
             <TouchableOpacity style={styles.resetBtn} onPress={() => setScanned(false)}>
-              <Text style={{ color: '#fff', fontWeight: 'bold' }}>BAM DE QUET TIEP</Text>
+              <Text style={{ color: '#fff', fontWeight: 'bold' }}>BAM DE QUET TIEP THEO</Text>
             </TouchableOpacity>
           )}
         </View>
